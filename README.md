@@ -55,7 +55,7 @@ Hemodialysis is the primary treatment for end-stage renal disease patients, but 
     └──text_emb.npy
     ```
 
-## Train and Evaluation
+## Train and evaluation
 
 1. Train a model for one-month mortality prediction and evaluate it by:
     ```sh
