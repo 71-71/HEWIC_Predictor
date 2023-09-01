@@ -30,7 +30,7 @@ Hemodialysis is the primary treatment for end-stage renal disease patients, but 
     └── y_3month.npy
     ```
 
-    **case_data_cs.csv**: cross-sectional data of patients
+    **case_data_cs.csv**: cross-sectional data of patients. The sex and vascular access type are encoded in multi-hot and one-hot format, respectively.
 
     **case_data_long.csv**: longitudinal data of patients
 
