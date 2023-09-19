@@ -52,7 +52,7 @@ Hemodialysis is the primary treatment for end-stage renal disease patients, but 
     data
     ├── cs_data.npy
     ├── data_long.npz
-    └──text_emb.npy
+    └── text_emb.npy
     ```
 
 ## Train and evaluation
