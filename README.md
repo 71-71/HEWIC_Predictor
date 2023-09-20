@@ -55,7 +55,7 @@ You could also organize your data following this format and replace them (ours) 
     data
     ├── cs_data.npy
     ├── data_long.npz
-    └──text_emb.npy
+    └── text_emb.npy
     ```
 
 ## Train and evaluation
