@@ -66,7 +66,7 @@ Hemodialysis is the primary treatment for end-stage renal disease patients, but 
     ```sh
     CUDA_VISIBLE_DEVICES=0 python main.py --label_type 3_month --focal_weight 0.07
     ```
-In reference (it takes about 0.4ms in dealing with one single case), you may obtain the the loss values and AUC like:
+In reference (it takes about 0.4ms in dealing with one single case), you may obtain the the loss and ROC-AUC values on the test set like:
  ```sh
 Loss: tensor(0.0865, device='cuda:0') Test AUC: 1.0
  ```
