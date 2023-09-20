@@ -17,6 +17,7 @@ Hemodialysis is the primary treatment for end-stage renal disease patients, but 
     ```sh
    pip install torch==1.8.1+cu111 torchvision==0.9.1+cu111 torchaudio==0.8.1 -f https://download.pytorch.org/whl/torch_stable.html
     ```
+The process will take less than 5 minutes.
 
 ## Data preparation
 1. Prepare files containing patient input exam data along with the corresponding mortality outcomes, and place them in the 'data' directory.
@@ -39,6 +40,8 @@ Hemodialysis is the primary treatment for end-stage renal disease patients, but 
     **train_corpus.csv**: containing corpus for training the Doc2Vec model
 
     These files contains only synthesized data for better patient privacy protection.
+
+You could also organize your data following this format and replace them (ours) under the data directory.
 
 2. Extract data from the .csv files and process them into the input feature formats by: 
 
@@ -66,3 +69,13 @@ Hemodialysis is the primary treatment for end-stage renal disease patients, but 
     CUDA_VISIBLE_DEVICES=0 python main.py --label_type 3_month --focal_weight 0.07
     ```
 
+    
+Note: It takes about 0.4ms to inference on a single case.
+
+
+And it will generate the results like:
+ ```sh
+Loss: tensor(0.0865, device='cuda:0') Test AUC: 1.0
+ ```
+
+It takes about 0.4ms to inference on a single case.
