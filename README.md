@@ -39,7 +39,7 @@ Hemodialysis is the primary treatment for end-stage renal disease patients, but 
 
     **train_corpus.csv**: containing corpus for training the Doc2Vec model
 
-    These files contains only synthesized data for better patient privacy protection. You could also use your own data by replacing our files in the data directory.
+    These files contain only synthesized data for better patient privacy protection. You could also use your own data by replacing our files in the data directory.
 
 2. Extract data from the .csv files and process them into the input feature formats by: 
 
